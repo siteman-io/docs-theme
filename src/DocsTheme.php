@@ -7,7 +7,6 @@ use Siteman\Cms\Theme\ThemeInterface;
 
 class DocsTheme implements ThemeInterface
 {
-
     public static function getName(): string
     {
         return 'Docs Theme';
