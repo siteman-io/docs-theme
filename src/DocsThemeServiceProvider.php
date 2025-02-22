@@ -17,8 +17,6 @@ class DocsThemeServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('docs-theme')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasCommand(DocsThemeCommand::class);
+            ->hasViews();
     }
 }

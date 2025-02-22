@@ -60,14 +60,11 @@
         "laravel": {
             "providers": [
                 "Siteman\\DocsTheme\\DocsThemeServiceProvider"
-            ],
-            "aliases": {
-                "DocsTheme": "Siteman\\DocsTheme\\Facades\\DocsTheme"
-            }
+            ]
         },
         "siteman": {
             "themes": [
-
+                "Siteman\\DocsTheme\\DocsTheme"
             ]
         }
     },
