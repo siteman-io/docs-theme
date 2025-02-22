@@ -2,7 +2,6 @@
 
 namespace Siteman\DocsTheme;
 
-use Siteman\DocsTheme\Commands\DocsThemeCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
